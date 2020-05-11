@@ -1,6 +1,6 @@
 // @refresh reset
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import {View, Text} from 'react-native';
 import {useDispatch} from 'react-redux';
 import {useTypedSelector, RootState} from '../../Redux/Reducers/Reducers';
 import {RootStackParamList} from '../../../App';
