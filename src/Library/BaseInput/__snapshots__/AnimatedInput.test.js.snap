@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimatedInput 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Array [
+            Object {
+              "marginHorizontal": 40,
+            },
+            undefined,
+          ],
+        ]
+      }
+      testID="box"
+    >
+      <TextInput
+        allowFontScaling={true}
+        placeholder="palceholder test"
+        placeholderTextColor="gray"
+        rejectResponderTermination={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "borderBottomColor": "lightgray",
+                "borderBottomWidth": 2,
+                "color": "black",
+                "fontSize": 18,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID="textInput"
+        underlineColorAndroid="transparent"
+        value="value test"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(0,100,180)",
+            "bottom": 0,
+            "height": 2,
+            "left": "50%",
+            "position": "absolute",
+            "right": "50%",
+          }
+        }
+        testID="borderBottom"
+      />
+    </View>
+  </View>
+</View>
+`;

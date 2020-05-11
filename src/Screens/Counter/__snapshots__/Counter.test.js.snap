@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+            "paddingVertical": 14,
+            "textAlign": "center",
+          }
+        }
+      >
+        10
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "marginVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        ¡Cambia el estado en Redux!
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <TouchableOpacity
+          testID="prueba"
+        />
+        <TouchableOpacity
+          style={
+            Array [
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="box"
+        >
+          <Text
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderRadius": 6,
+                    "borderWidth": 1,
+                    "fontSize": 18,
+                    "paddingHorizontal": 18,
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID="text"
+          >
+            Menos
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={
+            Array [
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="box"
+        >
+          <Text
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderRadius": 6,
+                    "borderWidth": 1,
+                    "fontSize": 18,
+                    "paddingHorizontal": 18,
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID="text"
+          >
+            Reiniciar
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={
+            Array [
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="box"
+        >
+          <Text
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderRadius": 6,
+                    "borderWidth": 1,
+                    "fontSize": 18,
+                    "paddingHorizontal": 18,
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID="text"
+          >
+            Más
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+            "paddingVertical": 14,
+            "textAlign": "center",
+          }
+        }
+      >
+        -1
+      </Text>
+      <View
+        style={
+          Array [
+            Array [
+              Object {
+                "marginHorizontal": 40,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID="box"
+      >
+        <TextInput
+          allowFontScaling={true}
+          placeholder="Ingresa un nuevo título"
+          placeholderTextColor="gray"
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Array [
+                Object {
+                  "borderBottomColor": "lightgray",
+                  "borderBottomWidth": 2,
+                  "color": "black",
+                  "fontSize": 18,
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="textInput"
+          underlineColorAndroid="transparent"
+          value="¡Cambia el estado en Redux!"
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgb(0,100,180)",
+              "bottom": 0,
+              "height": 2,
+              "left": "50%",
+              "position": "absolute",
+              "right": "50%",
+            }
+          }
+          testID="borderBottom"
+        />
+      </View>
+      <TouchableOpacity
+        style={
+          Array [
+            Array [
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "rgb(0,100,180)",
+                "borderRadius": 100,
+                "marginVertical": 64,
+                "paddingVertical": 12,
+                "width": "80%",
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID="box"
+      >
+        <Text
+          style={
+            Array [
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="text"
+        >
+          PRESS ME
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseButton 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Array [
+          undefined,
+        ]
+      }
+      testID="box"
+    >
+      <Text
+        style={
+          Array [
+            undefined,
+          ]
+        }
+        testID="text"
+      >
+        Test
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

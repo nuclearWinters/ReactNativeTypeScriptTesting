@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BorderButton 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Array [
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "rgb(0,100,180)",
+              "borderRadius": 100,
+              "marginVertical": 64,
+              "paddingVertical": 12,
+              "width": "80%",
+            },
+            undefined,
+          ],
+        ]
+      }
+      testID="box"
+    >
+      <Text
+        style={
+          Array [
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID="text"
+      >
+        Test
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
